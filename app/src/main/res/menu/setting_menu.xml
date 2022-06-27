@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="@string/logout"
+        app:showAsAction="always"
+        android:id="@+id/menu_log_out"/>
+    <item android:title="@string/view_profile"
+        app:showAsAction="never"
+        android:id="@+id/menu_view_profile"/>
+    <item android:title="@string/Add_Restraunt"
+        app:showAsAction="never"
+        android:id="@+id/menu_add_restraunt"/>
+    <item android:title="@string/show_all_users"
+        app:showAsAction="never"
+        android:id="@+id/menu_show_all_user"/>
+</menu>

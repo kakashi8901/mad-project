@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/parent_retro"
+    android:background="@color/colorPrimaryDark"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/restaurant"
+        android:id="@+id/list_restro_item_iv"
+        />
+    <RelativeLayout
+        android:layout_toRightOf="@+id/list_restro_item_iv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:padding="2dp"
+        android:layout_marginStart="10dp"
+        >
+        <TextView
+            android:id="@+id/list_restro_item_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            android:text="" />
+
+
+        <TextView
+            android:id="@+id/list_restro_item_desc_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/list_restro_item_name_tv"
+            android:ellipsize="end"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:singleLine="true"
+            android:text="" />
+
+    </RelativeLayout>
+</RelativeLayout>

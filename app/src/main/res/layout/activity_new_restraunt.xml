@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".AddNewRestrauntScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        tools:context=".addRegistrationActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/Add_Restraunt"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/addReg_name_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:hint="@string/restraunt_name"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/addReg_small_desc_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="@string/restraunt_small_desc"
+            android:maxLength="100"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/addReg_des_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:hint="@string/restraunt_des"
+            android:padding="10dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/addRegister_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:text="@string/Add_Restraunt" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

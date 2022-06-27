@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".SignInScreen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:layout_marginTop="50dp"
+        />
+    <EditText
+        android:id="@+id/signin_email_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:hint="@string/email"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/signin_password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="@string/password"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/signin_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="50dp"
+        android:text="@string/signin"
+        />
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="30dp"
+        android:text="Register Here"
+        />
+
+</LinearLayout>

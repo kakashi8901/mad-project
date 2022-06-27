@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">ikigai</string>
+    <string name="title_activity_login">Login Screen</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="register_lbl">Registration Page</string>
+    <string name="first_name">User Name</string>
+    <string name="userName">User Id</string>
+    <string name="email">Email Id</string>
+    <string name="password">Password </string>
+    <string name="register">Register</string>
+    <string name="login_lbl">Login Page</string>
+    <string name="empty_username">Please enter User Name.</string>
+    <string name="empty_password">Please enter Password.</string>
+    <string name="empty_email">Please enter email id.</string>
+    <string name="invalid_email">Please enter valid email id.</string>
+    <string name="empty_firstName">Please enter User Name</string>
+    <string name="empty_userName">Please enter User Id</string>
+    <string name="password_length">Password cann\'t be less than 5 character</string>
+    <string name="user_not_found">User details not found</string>
+    <string name="enter_valid_credintials">Please enter valid user credintials</string>
+    <string name="signin">SIGNIN</string>
+    <string name="registration_success">You have successfully registered.</string>
+    <string name="profile_lbl">Profile Screen</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="view">View</string>
+    <string name="no_restraunt">No Restraunt to show</string>
+    <string name="Add_Restraunt">Add New Restraunt</string>
+    <string name="create_user">Create New User</string>
+    <string name="logout">Logout</string>
+    <string name="restraunt_name">Restraunt Name</string>
+    <string name="restraunt_small_desc">Restraunt Small Desc</string>
+    <string name="restraunt_des">Restaurant Description</string>
+    <string name="view_review"><u>View All Reviews</u></string>
+    <string name="view_profile">View Profile</string>
+    <string name="no_review">There is no review for this Restraunt.</string>
+    <string name="show_all_users">Show All Registered Users</string>
+    <string name="no_user">No Register User</string>
+    <string name="registration_page">Registration Page</string>
+    <string name="dahboard">Dashboard</string>
+
+    <string-array name="userTypesArray">
+        <item>User</item>
+        <item>Admin</item>
+    </string-array>
+</resources>
