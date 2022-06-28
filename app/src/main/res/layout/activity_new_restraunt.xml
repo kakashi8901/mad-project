@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:fillViewport="true"
     android:orientation="vertical"
-    android:background="@color/colorPrimaryDark"
+    android:background="@color/white"
     tools:context=".AddNewRestrauntScreen">
 
     <LinearLayout
@@ -21,8 +21,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:text="@string/Add_Restraunt"
-            android:textColorHint="@color/white"
-            android:textColor="@color/white"
+            android:textColorHint="#E42021"
+            android:textColor="#E42021"
             android:textSize="28sp"
             android:textStyle="bold" />
 
@@ -32,8 +32,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
             android:hint="@string/restraunt_name"
-            android:textColorHint="@color/white"
-            android:textColor="@color/white"
+            android:textColorHint="#E42021"
+            android:textColor="#E42021"
             android:maxLines="1"
             android:singleLine="true"
             android:padding="10dp" />
@@ -45,8 +45,8 @@
             android:layout_marginTop="30dp"
             android:hint="@string/restraunt_small_desc"
             android:maxLength="100"
-            android:textColorHint="@color/white"
-            android:textColor="@color/white"
+            android:textColorHint="#E42021"
+            android:textColor="#E42021"
             android:padding="10dp" />
 
         <EditText
@@ -54,8 +54,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:textColorHint="@color/white"
-            android:textColor="@color/white"
+            android:textColorHint="#E42021"
+            android:textColor="#E42021"
             android:hint="@string/restraunt_des"
             android:padding="10dp" />
         <LinearLayout

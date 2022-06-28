@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="@color/white"
     tools:context=".ShowReviewActivity">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -20,7 +20,7 @@
         android:layout_height="match_parent"
         android:text="@string/no_review"
         android:gravity="center"
-        android:textColor="@color/white"
+        android:textColor="#E42021"
         android:visibility="gone"
         />
 

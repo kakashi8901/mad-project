@@ -19,8 +19,8 @@
         android:layout_height="match_parent"
         android:text="@string/no_restraunt"
         android:gravity="center"
-        android:textColorHint="@color/white"
-        android:textColor="@color/white"
+        android:textColorHint="#E42021"
+        android:textColor="#E42021"
         android:visibility="gone"
         />
 

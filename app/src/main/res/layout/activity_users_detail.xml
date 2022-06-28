@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="@color/white"
     tools:context=".ShowUsersDetail">
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
         android:layout_height="match_parent"
         android:text="@string/no_user"
         android:gravity="center"
-        android:textColor="@color/white"
+        android:textColor="#E42021"
         android:visibility="gone"
         />
 

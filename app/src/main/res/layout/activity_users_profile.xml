@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="@color/white"
     android:fillViewport="true"
     android:orientation="vertical"
     tools:context=".UsersProfileActivity">
@@ -22,7 +22,7 @@
             android:layout_marginTop="50dp"
             android:text="@string/profile_lbl"
             android:textSize="28sp"
-            android:textColor="@color/white"
+            android:textColor="#E42021"
             android:textStyle="bold" />
 
         <EditText
@@ -31,8 +31,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
             android:hint="@string/first_name"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
+            android:textColor="#E42021"
+            android:textColorHint="#E42021"
             android:singleLine="true"
             android:maxLines="1"
             android:padding="10dp" />
@@ -46,8 +46,8 @@
             android:hint="@string/userName"
             android:maxLines="1"
 
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
+            android:textColor="#E42021"
+            android:textColorHint="#E42021"
             android:singleLine="true"
             android:padding="10dp" />
 
@@ -57,8 +57,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:hint="@string/email"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
+            android:textColor="#E42021"
+            android:textColorHint="#E42021"
             android:singleLine="true"
             android:maxLines="1"
             android:enabled="false"
@@ -78,7 +78,7 @@
                 android:layout_weight="1"
                 android:visibility="gone"
                 android:text="@string/update_profile"
-                android:textColor="@color/white"
+                android:textColor="#E42021"
                 />
         </LinearLayout>
     </LinearLayout>
